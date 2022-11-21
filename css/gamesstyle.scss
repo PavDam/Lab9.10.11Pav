@@ -1,0 +1,75 @@
+@import "_base";
+
+.logogames{
+    height: 180px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    @media screen and (max-width: $breakpoint-md-max) {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+.video{
+    height: 360px;
+    width: 100%;
+
+    @media screen and (max-width: $breakpoint-xl-max) {
+        height: 300px;
+    }
+
+    @media screen and (max-width: $breakpoint-lg-max) {
+        height: 240px;
+    }
+
+    @media screen and (max-width: $breakpoint-md-max) {
+        height: 300px;
+        margin-bottom: 25px;
+    }
+
+    @media screen and (max-width: $breakpoint-sm-max) {
+        height: 55vw;
+    }
+}
+
+.shorttext{
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.visitpage{
+    width: 150px;
+    border-radius: 0px;
+    border: none;
+    font-size: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #3C096C;
+    align-self: center;
+
+    &:hover{
+        background-color: #5A189A;
+    }
+
+    &:active{
+        background-color: #9D4EDD !important;
+    }
+}
+
+hr{
+    color: #7B2CBF;
+    opacity: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    @media screen and (max-width: $breakpoint-lg-max) {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+}
+
+.lastgameblock{
+    margin-bottom: 25px;
+}

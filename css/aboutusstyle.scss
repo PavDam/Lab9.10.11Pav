@@ -1,0 +1,38 @@
+@import "_base";
+
+.joysteamtext{
+    text-align: center;
+    font-size: 16px;
+}
+
+.teamimg{
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+
+    @media screen and(max-width: $breakpoint-xl-max){
+        width: 290px;
+        height: 290px;
+        border-radius: 145px;
+    }
+
+    @media screen and(max-width: $breakpoint-lg-max){
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
+
+    @media screen and(max-width: $breakpoint-md-max){
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+    }
+}
+
+.hisname{
+    text-align: center;
+}
+
+.teaminfo{
+    margin-bottom: 25px;
+}

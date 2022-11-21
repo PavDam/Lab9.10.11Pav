@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoysTeam (Павлик)</title>
+    <link rel="shortcut icon" href="./imgs/joysteam logo.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/gamesstyle.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" id="startpage">
+            <div class="container">
+                <div class="brand">
+                    <a class="navbar-brand" href="index.html"><img class="autoImg" src="./imgs/joysteam logo.svg" alt="logo"></a>
+                </div>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Games.html">Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="AboutUs.html">About Us</a>
+                        </li>
+                        <li class="nav-item mobilesocial">
+                            <div class="social">
+                                <a class="nav-link" href="https://twitter.com/GenshinImpact" target="_blank"><img class="sites" src="./imgs/twitter.svg" alt=""></a>
+                                <a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img class="sites" src="./imgs/youtube.svg" alt=""></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="logogames">
+                    <img class="autoImg" src="./imgs/Genshin_Impact_logo.svg" alt="">
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-xl-between">
+                <div class="col-12 col-md-6">
+                    <iframe class="video" src="https://www.youtube.com/embed/HLUY1nICQRY" title="Genshin Impact - Official Launch Trailer" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-12 col-md-6 col-xl-5 d-flex flex-column">
+                    <div class="shorttext">
+                        Dive into the amazing world of Genshin Impact! A new development by our (no) team that will have you sitting inside for hours! Learn the mystery of the new universe, cooperate with other players, unlock new characters and just have fun.
+                    </div>
+                    <div class="shorttext">
+                        Available on the official website, release on Steam next year.
+                    </div>
+                    <a class="btn btn-primary visitpage" href="https://genshin.hoyoverse.com/en/" target="_blank" role="button">OFFICIAL SITE</a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="logogames">
+                    <img class="autoImg" src="./imgs/Dead_Cells_logo.svg" alt="">
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-xl-between lastgameblock">
+                <div class="col-12 col-md-6">
+                    <iframe class="video" src="https://www.youtube.com/embed/gX4cGcwmdsY" title="Dead Cells - Animated Trailer" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-12 col-md-6 col-xl-5 d-flex flex-column">
+                    <div class="shorttext">
+                        When you're really headless life goes like this!
+                    </div>
+                    <div class="shorttext">
+                        Crash, destroy, kill, die, be reborn and start all over again! Isn't it fun? Epic bosses and beautiful levels, TONS of weapons and tons of variety. JoysTeam's first game!
+                    </div>
+                    <a class="btn btn-primary visitpage" href="https://store.steampowered.com/app/588650/Dead_Cells/" target="_blank" role="button">STEAM PAGE</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-sm d-flex">
+            <div class="companyname order-1 order-md-0">© 2022 JoysTeam</div>
+            <div class="useful d-flex">
+                <a class="footer-links" href="#startpage">Back to Start</a>
+                <div class="spacer">|</div>
+                <a class="footer-links" href="#startpage" data-bs-toggle="modal" data-bs-target="#contuctform">Contact Us</a>
+                <div class="modal fade" id="contuctform" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h2 class="modal-title" id="exampleModalLabel">CONTACT US</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="Email-user" class="col-form-label">E-mail</label>
+                                  <input type="email" name="email" class="form-control" id="Email-user">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="message-text" class="col-form-label">Message</label>
+                                  <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                              </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary modalbutton">Send message</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

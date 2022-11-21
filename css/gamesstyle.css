@@ -1,0 +1,285 @@
+body {
+  font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", serif;
+  min-width: 320px;
+  color: #10002B;
+}
+
+main {
+  padding-bottom: 25px;
+}
+
+footer {
+  background-color: #7B2CBF;
+  padding: 25px 0px 25px 0px;
+}
+
+.container-sm {
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (max-width: 575px) {
+  .container-sm {
+    flex-direction: column;
+  }
+}
+
+.footer-links {
+  color: white;
+  text-underline-offset: 3px;
+}
+.footer-links:hover {
+  color: white;
+}
+
+.spacer {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+}
+
+h1 {
+  font-size: 48px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: 700;
+  color: #240046;
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 44px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #240046;
+}
+@media screen and (max-width: 991px) {
+  h2 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 767px) {
+  h2.modal-title {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 575px) {
+  h2.modal-title {
+    font-size: 28px;
+  }
+}
+
+h3 {
+  font-size: 32px;
+  color: #240046;
+  font-weight: 500;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+@media screen and (max-width: 767px) {
+  h3 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 575px) {
+  h3 {
+    font-size: 24px;
+  }
+}
+
+.modal-content {
+  border-radius: 0px;
+}
+
+.modalbutton {
+  border-radius: 0px;
+  border: none;
+  background-color: #3C096C;
+}
+.modalbutton:hover {
+  background-color: #5A189A;
+}
+.modalbutton:active {
+  background-color: #9D4EDD !important;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-lg, .modal-xl {
+    --bs-modal-width: 600px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .modal-lg, .modal-xl {
+    --bs-modal-width: 800px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal-lg, .modal-xl {
+    --bs-modal-width: 1140px;
+  }
+}
+
+.navbar {
+  background-color: #7B2CBF;
+}
+
+.nav-link {
+  color: white;
+  margin-left: 16px;
+}
+.nav-link.active {
+  color: white !important;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+.nav-link:hover {
+  color: white;
+  cursor: pointer;
+}
+@media screen and (max-width: 991px) {
+  .nav-link {
+    margin-top: 15px;
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+
+.brand {
+  width: 45px;
+  height: 30px;
+}
+@media screen and (min-width: 768px) {
+  .brand {
+    width: 75px;
+    height: 45px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .brand {
+    width: 100px;
+    height: 65px;
+  }
+}
+
+.autoImg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("../imgs/list.svg");
+  filter: invert(1);
+}
+
+.sites {
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 991px) {
+  .social {
+    gap: 15px;
+  }
+}
+
+.companyname {
+  color: white;
+}
+
+.logogames {
+  height: 180px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 767px) {
+  .logogames {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+.video {
+  height: 360px;
+  width: 100%;
+}
+@media screen and (max-width: 1199px) {
+  .video {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .video {
+    height: 240px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .video {
+    height: 300px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .video {
+    height: 55vw;
+  }
+}
+
+.shorttext {
+  font-size: 16px;
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+
+.visitpage {
+  width: 150px;
+  border-radius: 0px;
+  border: none;
+  font-size: 16px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background-color: #3C096C;
+  align-self: center;
+}
+.visitpage:hover {
+  background-color: #5A189A;
+}
+.visitpage:active {
+  background-color: #9D4EDD !important;
+}
+
+hr {
+  color: #7B2CBF;
+  opacity: 100%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 991px) {
+  hr {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+}
+
+.lastgameblock {
+  margin-bottom: 25px;
+}

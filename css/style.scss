@@ -1,0 +1,100 @@
+@import "_base";
+
+header{
+    background-color: #E0AAFF;
+    padding-bottom: 50px;
+}
+
+.blogimg{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    object-position: right center;
+
+    @media screen and(max-width: $breakpoint-xl-max){
+        width: 450px;
+        height: 450px;
+    }
+
+    @media screen and(max-width: $breakpoint-lg-max){
+        width: 345px;
+        height: 345px;
+    }
+
+    @media screen and(max-width: $breakpoint-md-max){
+        width: 100%;
+        height: 60vw;
+        padding-bottom: 30px;
+    }
+}
+
+.rightstyle{
+    float: right;
+}
+
+.shorttext{
+    padding-top: 20px;
+    font-size: 16px;
+
+    @media screen and (max-width: $breakpoint-lg-max) {
+        padding-top: 10px;
+    }
+}
+
+.fulltext{
+    font-size: 16px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.ddmmyy{
+    margin-top: 40px;
+    font-weight: bold;
+    color: #240046;
+
+    @media screen and (max-width: $breakpoint-lg-max) {
+        margin-top: 25px;
+    }
+}
+
+.readmorebutton{
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    border-radius: 0px;
+    border: none;
+    font-size: 16px;
+    background-color: #3C096C;
+
+    &:hover{
+        background-color: #5A189A;
+    }
+
+    &:active{
+        background-color: #9D4EDD !important;
+    }
+
+    @media screen and (max-width: $breakpoint-lg-max) {
+        margin-top: 20px;
+    }
+}
+
+.otherblog{
+    margin-bottom: 25px;
+}
+
+.modalimg{
+    width: 100%;
+    height: 100%;
+}
+
+.author{
+    font-weight: bold;
+    color: #240046;
+    margin-right: 20px;
+}
+
+.postdate{
+    font-weight: bold;
+    color: #240046;
+}
